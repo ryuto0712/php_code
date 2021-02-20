@@ -7,9 +7,10 @@ $z = "★";
 $p = $x;
 for($x;$x>=1;$x--){
     for($w = $x;$w != 1; $w--){
-    echo "&nbsp";
+        echo "&nbsp";
     }
     for($j = 1;$j<=$p;$j++){
-    echo $z;
+        echo $z;
     }
+
 }
